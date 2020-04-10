@@ -3,7 +3,7 @@ Android app for tracking Covid-19 cases in India.
 
 [Website](https://www.covid19india.org/)
 
-[Api](api.covid19india.org)
+[Api](https://api.covid19india.org)
 
 ## Maintainers
 
