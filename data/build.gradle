@@ -1,0 +1,21 @@
+apply plugin: 'kotlin'
+
+targetCompatibility = 1.8
+sourceCompatibility = 1.8
+
+dependencies {
+    def dependencies = rootProject.ext.dependencies
+
+    implementation dependencies.kotlin
+    //reactive
+    implementation dependencies.rxJava
+    implementation dependencies.rxAndroid
+    // network
+    implementation dependencies.retrofit
+    implementation dependencies.retrofitGsonConverter
+    implementation dependencies.retrofitRxJava2Adapter
+    // Timber
+    implementation dependencies.timber
+
+    implementation project(':domain')
+}

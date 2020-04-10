@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">India Covid-19 Tracker</string>
+    <string name="title_home">Home</string>
+    <string name="title_statewise">State Wise Report</string>
+    <string name="confirmed">Confirmed</string>
+    <string name="active">Active</string>
+    <string name="recovered">Recovered</string>
+    <string name="deceased">Deceased</string>
+    <string name="dash">---</string>
+    <string name="last_updated_on">Last updated on</string>
+</resources>
